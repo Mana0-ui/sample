@@ -1,0 +1,538 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: YuMincho,serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-fluid {
+  position: relative;
+  width: 100%;
+}
+
+.container-fluid .head-icon {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  background-color: #FFF35D;
+}
+
+.container-fluid .head-icon .head-img {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 70px;
+  height: 20.36px;
+}
+
+.container-fluid .head-icon .head-img img {
+  width: 100%;
+  max-height: 100%;
+}
+
+.container-fluid .navigation {
+  z-index: 10;
+}
+
+.container-fluid .navigation nav {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  float: right;
+  line-height: 65px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-fluid .navigation nav li {
+  margin: 0 5px 0 5px;
+  font-size: 10px;
+}
+
+.container-fluid .about-lemon {
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+  height: 217px;
+  background-image: url(~assets/images/hero_visual_company.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-fluid .about-lemon::before {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.container-fluid .about-lemon .lemon-top {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  width: 240px;
+  height: 60px;
+  border: 2px solid white;
+}
+
+.container-fluid .about-lemon .lemon-top h2 {
+  text-align: center;
+  line-height: 60px;
+  font-size: 24px;
+  letter-spacing: 6px;
+  color: white;
+}
+
+.container-fluid .concept {
+  position: relative;
+  width: 100%;
+  height: 152px;
+  background-image: url(~assets/images/company_panel01.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #FCDC4B;
+}
+
+.container-fluid .concept .concept-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  width: 240px;
+  height: 60px;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 40px;
+}
+
+.container-fluid .concept .concept-text h2 {
+  font-size: 21px;
+}
+
+.container-fluid .message {
+  height: 282px;
+  width: 100%;
+  padding: 30px 15px;
+}
+
+.container-fluid .message span {
+  font-size: 21px;
+  color: #E2AF3C;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.container-fluid .message p {
+  font-size: 13px;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+
+.container-fluid .kodawari {
+  position: relative;
+  width: 100%;
+  height: 152px;
+  background-image: url(~assets/images/company_panel02.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #202731;
+}
+
+.container-fluid .kodawari .kodawari-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  width: 240px;
+  height: 60px;
+  border: 2px solid white;
+  color: white;
+}
+
+.container-fluid .kodawari .kodawari-text h2 {
+  text-align: center;
+  line-height: 60px;
+  font-size: 21px;
+}
+
+.container-fluid .company {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container-fluid .company .company-text {
+  width: 240px;
+  height: 60px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 60px auto 20px auto;
+}
+
+.container-fluid .company .company-text h2 {
+  font-size: 21px;
+  line-height: 60px;
+  letter-spacing: 4px;
+}
+
+.container-fluid .company table {
+  margin: 40px 0 10px 0;
+  background-color: #F3F3F3;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.container-fluid .company table tr:nth-child(odd) td {
+  background-color: #E7E7E7;
+}
+
+.container-fluid .company table tr:nth-child(odd) th {
+  background-color: #E7E7E7;
+}
+
+.container-fluid .company table td {
+  letter-spacing: 2px;
+  font-size: 12px;
+  border: 2px solid white;
+  text-align: left;
+  padding: 15px;
+}
+
+.container-fluid .company table th {
+  font-size: 12px;
+  font-weight: normal;
+  border: 2px solid white;
+}
+
+.container-fluid .naniwa-group {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container-fluid .naniwa-group .naniwa {
+  width: 240px;
+  height: 60px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-fluid .naniwa-group .naniwa h3 {
+  line-height: 60px;
+  font-size: 21px;
+}
+
+.container-fluid .naniwa-group table {
+  margin: 10px 0 40px;
+  background-color: #F3F3F3;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.container-fluid .naniwa-group table tr:nth-child(odd) td {
+  background-color: #E7E7E7;
+}
+
+.container-fluid .naniwa-group table tr:nth-child(odd) th {
+  background-color: #E7E7E7;
+}
+
+.container-fluid .naniwa-group table td {
+  border: 2px solid white;
+  text-align: left;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.container-fluid .naniwa-group table th {
+  text-align: center;
+  border: 2px solid white;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.container-fluid .naniwa-group table ol {
+  margin-left: 20px;
+}
+
+.container-fluid .company2 {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container-fluid .company2 .company-text {
+  width: 300px;
+  height: 90px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 80px auto;
+}
+
+.container-fluid .company2 .company-text h2 {
+  font-size: 28px;
+  letter-spacing: 6px;
+  line-height: 90px;
+}
+
+.container-fluid .company2 table {
+  margin: 40px 0 10px;
+  background-color: #F3F3F3;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.container-fluid .company2 table tr:nth-child(odd) td {
+  background-color: #E7E7E7;
+}
+
+.container-fluid .company2 table tr:nth-child(odd) th {
+  background-color: #E7E7E7;
+}
+
+.container-fluid .company2 table td {
+  font-size: 15px;
+  border: 2px solid white;
+  text-align: left;
+  padding: 30px;
+  letter-spacing: 2px;
+}
+
+.container-fluid .company2 table th {
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: normal;
+  border: 2px solid white;
+}
+
+.container-fluid .naniwa-group2 {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container-fluid .naniwa-group2 .naniwa {
+  width: 300px;
+  height: 90px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-fluid .naniwa-group2 .naniwa h3 {
+  letter-spacing: 4px;
+  font-size: 28px;
+  line-height: 90px;
+}
+
+.container-fluid .naniwa-group2 table {
+  margin: 10px 0;
+  background-color: #F3F3F3;
+  table-layout: fixed;
+  text-align: center;
+}
+
+.container-fluid .naniwa-group2 table tr:nth-child(odd) td {
+  background-color: #E7E7E7;
+}
+
+.container-fluid .naniwa-group2 table tr:nth-child(odd) th {
+  background-color: #E7E7E7;
+}
+
+.container-fluid .naniwa-group2 table td {
+  border: 2px solid white;
+  text-align: left;
+  padding: 30px;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+.container-fluid .naniwa-group2 table th {
+  border: 2px solid white;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.container-fluid .naniwa-group2 table ol {
+  margin-left: 20px;
+}
+
+.container-fluid .concept2 {
+  background-color: #FCDC4B;
+  position: relative;
+  background-image: url(~assets/images/company_panel01.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+  background-position: bottom;
+}
+
+.container-fluid .concept2 .concept-text2 {
+  position: absolute;
+  background-color: #FCDC4B;
+  top: 10%;
+  left: 30%;
+}
+
+.container-fluid .concept2 .concept-text2 h2 {
+  padding: 20px 25px;
+  font-size: 24px;
+  border: 2px solid white;
+  color: white;
+}
+
+.container-fluid .message2 {
+  height: 70vh;
+  width: 100%;
+  display: inline-block;
+  padding: 50px;
+}
+
+.container-fluid .message2 span {
+  font-size: 21px;
+  color: #E2AF3C;
+  line-height: 35px;
+  letter-spacing: 1px;
+}
+
+.container-fluid .message2 p {
+  font-size: 13px;
+  padding-bottom: 10px;
+  line-height: 25px;
+}
+
+.container-fluid .kodawari2 {
+  background-color: #202731;
+  background-image: url(~assets/images/company_panel02.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh;
+}
+
+.container-fluid .kodawari2 .kodawari-text2 {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  border: 2px solid white;
+  color: white;
+  padding: 15px 65px;
+}
+
+.container-fluid .kodawari2 .kodawari-text2 h2 {
+  font-size: 21px;
+}
+
+.container-fluid .enkaku {
+  width: 100%;
+  padding: 5px 20px;
+}
+
+.container-fluid .enkaku .title h3 {
+  width: 240px;
+  text-align: center;
+  margin: 0 auto 30px;
+  padding: 15px 20px;
+  font-size: 21px;
+  letter-spacing: 4px;
+  border: 1px solid black;
+}
+
+.container-fluid .enkaku hr {
+  width: 98%;
+}
+
+.container-fluid .enkaku .date {
+  font-size: 12px;
+  padding: 0 0 3px 10px;
+}
+
+.container-fluid .enkaku .date p {
+  color: #333;
+}
+
+.container-fluid .enkaku .place {
+  font-size: 15px;
+  padding: 5px 0 15px 10px;
+}
+
+.container-fluid .enkaku .place p {
+  color: #333;
+}
+
+.container-fluid .enkaku .place-last p {
+  padding: 0 0 40px 10px;
+  font-size: 15px;
+}
+
+.container-fluid .enkaku2 {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.container-fluid .enkaku2 .title2 {
+  width: 242px;
+  height: 75px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.container-fluid .enkaku2 .title2 h3 {
+  line-height: 75px;
+}
+
+.container-fluid .enkaku2 .date-right {
+  text-align: right;
+  margin: 60px 0 0 0;
+  border-bottom: 1px solid black;
+  padding-right: 10px;
+}
+
+.container-fluid .enkaku2 .date-left {
+  text-align: left;
+  margin: 60px 0 0 0;
+  border-bottom: 1px solid black;
+  padding-left: 10px;
+}
+
+.container-fluid .enkaku2 .date-left::before {
+  content: '';
+  display: block;
+  border-left: 1px solid black;
+}
+
+.container-fluid .enkaku2 .enkaku-text {
+  padding-left: 10px;
+}
+
+.container-fluid .blog {
+  width: 100%;
+  margin: 60px auto;
+}
+
+.container-fluid .blog .blog-naniwa {
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+.container-fluid .blog .blog-lemon {
+  margin: 0 auto;
+}
+
+.container-fluid .blog .blog-lemon img {
+  border: 1px solid #333;
+}
+/*# sourceMappingURL=about.css.map */

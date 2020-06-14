@@ -1,0 +1,407 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.col-md-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.top-page {
+  background-size: cover;
+  background-position: center;
+  background-image: url("~assets/images/top_visual.jpg");
+  width: 100vw;
+  height: 100vh;
+}
+
+.top-page::before {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.texts {
+  position: relative;
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.texts #top-text {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: YuMincho,serif;
+  -webkit-transform: translateY(170px);
+          transform: translateY(170px);
+  color: white;
+  line-height: 72px;
+  letter-spacing: 12px;
+}
+
+#menu {
+  background: #EE5635;
+}
+
+.information {
+  width: 100vw;
+  color: white;
+}
+
+.shop {
+  background-image: url(~assets/images/top_feature01.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50vh;
+}
+
+.shop::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.shop img {
+  padding: 0;
+}
+
+.shop hr {
+  background-color: white;
+}
+
+.shop .shop-text {
+  padding: 40px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.shop .shop-text h2 {
+  font-size: 30px;
+  font-family: YuMincho,serif;
+  letter-spacing: 8px;
+  padding-bottom: 10px;
+}
+
+.shop .shop-text p {
+  font-size: 12px;
+  font-family: Yumincho,serif;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.lemon {
+  background-image: url(~assets/images/top_feature02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50vh;
+}
+
+.lemon::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.lemon hr {
+  background-color: white;
+}
+
+.lemon .lemon-text {
+  padding: 40px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.lemon .lemon-text h2 {
+  font-size: 30px;
+  font-family: YuMincho,serif;
+  letter-spacing: 8px;
+  padding-bottom: 10px;
+}
+
+.lemon .lemon-text p {
+  font-size: 12px;
+  font-family: Yumincho,serif;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.sell {
+  background-image: url(~assets/images/top_feature03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50vh;
+}
+
+.sell::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.sell hr {
+  background-color: white;
+}
+
+.sell .sell-text {
+  position: absolute;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.sell .sell-text h2 {
+  font-size: 30px;
+  font-family: YuMincho,serif;
+  letter-spacing: 8px;
+  padding-bottom: 10px;
+}
+
+.sell .sell-text p {
+  font-size: 12px;
+  font-family: Yumincho,serif;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.sell .sell-text span {
+  color: #FFF250;
+}
+
+.buy {
+  background-image: url(~assets/images/top_feature04.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50vh;
+}
+
+.buy::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.buy hr {
+  background-color: white;
+}
+
+.buy .buy-text {
+  padding: 40px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.buy .buy-text h2 {
+  font-size: 30px;
+  font-family: YuMincho,serif;
+  letter-spacing: 8px;
+  padding-bottom: 10px;
+}
+
+.buy .buy-text p {
+  font-size: 12px;
+  font-family: Yumincho,serif;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.buy .buy-text span {
+  color: #FFF250;
+}
+
+.old {
+  background-image: url(~assets/images/top_feature05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50vh;
+}
+
+.old::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.old hr {
+  background-color: white;
+}
+
+.old .old-text {
+  position: absolute;
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.old .old-text h2 {
+  font-size: 30px;
+  font-family: YuMincho,serif;
+  letter-spacing: 8px;
+  padding-bottom: 10px;
+}
+
+.old .old-text p {
+  font-size: 12px;
+  font-family: Yumincho,serif;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.review {
+  background-image: url(~assets/images/top_feature06.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 50vh;
+}
+
+.review::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.review hr {
+  background-color: white;
+}
+
+.review .review-text {
+  padding: 40px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.review .review-text h2 {
+  font-size: 30px;
+  font-family: YuMincho,serif;
+  letter-spacing: 8px;
+  padding-bottom: 10px;
+}
+
+.review .review-text p {
+  font-size: 12px;
+  font-family: Yumincho,serif;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.offer {
+  background-image: url(~assets/images/top_feature07.jpg);
+  height: 50vh;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.offer::before {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+}
+
+.offer hr {
+  background-color: white;
+}
+
+.offer .offer-text {
+  padding: 40px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.offer .offer-text h2 {
+  font-size: 30px;
+  font-family: YuMincho,serif;
+  letter-spacing: 8px;
+  padding-bottom: 10px;
+}
+
+.offer .offer-text p {
+  font-size: 12px;
+  font-family: Yumincho,serif;
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.shops {
+  font-family: YuMincho,serif;
+  padding: 30px;
+}
+
+.shops h2 {
+  letter-spacing: 3px;
+  color: #333;
+}
+
+.shops table {
+  width: 100%;
+  table-layout: fixed;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.shops table th {
+  width: 30%;
+  vertical-align: top;
+  padding: 30px 0 0 0;
+  color: #333;
+}
+
+.shops table td {
+  width: 70%;
+  padding: 30px 0 0 0;
+  color: #333;
+}
+/*# sourceMappingURL=common.css.map */
